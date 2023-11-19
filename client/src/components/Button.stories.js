@@ -4,7 +4,8 @@ import Button from './Button'
 export const Default = {
     render: args => <Button {...args} />,
     args: {
-        label: 'CLick on mez'
+        label: 'Send',
+        onclick: () => alert('Button was clicked.')
     }
 }
 

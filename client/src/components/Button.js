@@ -3,6 +3,6 @@ import { Button as MuiButton } from '@mui/material'
 
 export default function Button(props) {
   return (
-    <MuiButton variant='contained'>{props.label}</MuiButton>
+    <MuiButton variant='contained' {...props}>{props.label}</MuiButton>
   )
 }
