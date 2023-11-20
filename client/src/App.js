@@ -34,7 +34,7 @@ function App() {
 
   const handleAddTodo = () => {
     axios
-      .post(`${api}`, {
+      .post(api, {
         todo_title: newTitle,
         todo_description: newDescription,
         todo_is_complete: false
