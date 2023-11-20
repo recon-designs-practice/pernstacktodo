@@ -1,22 +1,20 @@
 .grid-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 32px;
-  /* border: 2px solid green; */
 }
 
 h1 {
   margin: 0px;
   grid-column: 3 / 11;
-  text-align: center;
-  /* border: 1px dashed pink; */
 }
 
 h6 {
   margin: 0px;
   grid-column: 3 / 11;
   text-align: center;
-  /* border: 1px dashed pink; */
 }
 
 .add-section {
@@ -24,7 +22,6 @@ h6 {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  /* border: 2px solid black; */
 }
 
 .form-button {
