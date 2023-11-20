@@ -8,7 +8,6 @@ const pool = new Pool({
   // port: process.env.LOCAL_DATATBASE_PORT,
   // database: process.env.LOCAL_DATABASE_NAME,
 
-  // connectionString: 'PGPASSWORD=0f5bIoJhXpH212i6vvrnNm6zNhK6sCKj psql -h dpg-cldcjmd4lnec73e8batg-a.oregon-postgres.render.com -U pern_stack_todo_db_user pern_stack_todo_db',
   connectionString: 'postgres://pern_stack_todo_db_user:0f5bIoJhXpH212i6vvrnNm6zNhK6sCKj@dpg-cldcjmd4lnec73e8batg-a/pern_stack_todo_db',
   ssl: { rejectUnauthorized: false },
   user: 'pern_stack_todo_db_user',
